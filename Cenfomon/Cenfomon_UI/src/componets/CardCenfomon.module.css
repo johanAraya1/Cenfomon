@@ -1,0 +1,89 @@
+h1 {
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    background-color: #FB6C6C;
+    color: #EFEFEF;
+    max-width: 45%;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    margin: 1rem;
+    padding: 10px;
+    margin-left: auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.typeCenfomon {
+    background-color: #EFEFEF66;
+    color: #EFEFEF;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.lifeBar {
+    background-color: #707070;
+    border-radius: 25px;
+    height: 15px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.lifeBar:after {
+    content: '';
+    display: block;
+    background-color: #9157F8;
+    border-color: #702DE6;
+    box-shadow: 0 1px 30px #702DE6;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.lifeBarText {
+    color: #A7B5FF;
+}
+
+.statCircle {
+    background-color: #EFEFEF;
+    border-color: #707070;
+    color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+}
+
+.contenedorImg {
+    display: flex;
+    bottom: -13%;
+    right: -43%;
+    position: absolute;
+    max-width: 86%;
+}
+.imgCenfomon{
+
+}
+
+.contenedorPadre {
+    max-width: 19%;
+}
+
+.contenedorTexto {
+    max-width: 80%;
+}

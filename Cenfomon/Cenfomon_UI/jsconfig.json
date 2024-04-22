@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react",
+    "paths": {
+      "@kaboom": ["../node_modules/kaboom/dist/kaboom"]
+    },
+    "module": "esnext",
+    "target": "es5"
+  },
+  "include": ["src"]
+}

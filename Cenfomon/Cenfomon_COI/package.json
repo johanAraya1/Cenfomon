@@ -1,0 +1,19 @@
+{
+  "name": "cenfomon_coi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jimenezzjcenfo@bitbucket.org/Jlopezxz/cenfomon_coi.git"
+  },
+  "author": "pattern_group_4",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Jlopezxz/cenfomon_coi#readme",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}

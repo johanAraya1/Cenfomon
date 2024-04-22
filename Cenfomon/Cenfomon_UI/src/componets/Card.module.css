@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-content: flex-start;
+    width: 42%;
+    height: 80%;
+    background-color: #2E2E2E;
+    border-style: solid;
+    border-color: #D411E2;
+    border-width: 3px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px #d411e2;
+}
+
+.card>p {
+    padding: 1rem;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.cardActns {
+    padding: 1rem;
+    display: flex;
+}
+
+.btn:not(.btn:last-of-type) {
+    margin-right: .5rem;
+}
+
+.btn {
+    background-color: #00E1FF;
+    border: none;
+    color: #000000;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px #D411E2;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #00E1FF;
+}
+
+.imgWrapp {
+    padding: 1rem 0.5rem;
+}

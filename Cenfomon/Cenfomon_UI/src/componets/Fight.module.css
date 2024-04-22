@@ -1,0 +1,110 @@
+.card{
+    background-color: #515151;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #D411E2;
+    max-width: 45%;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+h1 {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #EFEFEF;
+    text-align: left;
+}
+
+.statTextPlayer {
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #00E1FF;
+    text-align: right;
+  }
+
+  .lifeBarPlayer{
+    background-color: #707070;
+    height: 8px;
+    width: 250px;
+  }
+
+  .lifeBarPlayer:after{
+    content: '';
+    display: block;
+    background-color: #00E1FF;
+    border-color: #4161DF;
+    box-shadow: 0 0 30px #4161DF;
+    border-radius: 25px;
+    height: 100%;
+    width: 25%;
+  }
+
+  .statTextEnemy {
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #DB4747;
+    text-align: right;
+  }
+
+  .lifeBarEnemy{
+    background-color: #707070;
+    height: 8px;
+    width: 250px;
+  }
+
+  .lifeBarEnemy:after{
+    content: '';
+    display: block;
+    background-color: #DB4747;
+    border-color: #DB4747;
+    box-shadow: 0 0 30px #DB4747;
+    border-radius: 25px;
+    height: 100%;
+    width: 25%;
+  }
+
+  .containerMenu{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+  .cardMenu{
+    background-color: #515151;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #D411E2;
+    width: 500px;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+  }
+
+  .btn {
+    background-color: #00E1FF;
+    border: none;
+    color: #000000;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px #D411E2;
+    transition-duration: 0.4s;
+    margin: 15px;
+  }
+
+  .btn:hover {
+    background-color: #000000;
+    color: #00E1FF;
+  }
+
+

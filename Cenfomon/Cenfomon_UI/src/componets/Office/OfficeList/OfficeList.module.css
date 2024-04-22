@@ -1,0 +1,10 @@
+.officeListWrapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1rem 0;
+}
+
+.cardFirst {
+    margin-left: 0;
+}
